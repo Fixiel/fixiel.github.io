@@ -1,0 +1,75 @@
+body {
+    font: 14px Arial;
+}
+
+.wrapper {
+    width: 360px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.elephant-check-form .parameters {
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: 1px solid #969696;
+    outline: none;
+}
+
+.elephant-check-form .parameters:hover {
+    border-color: #323232;
+}
+
+.elephant-check-form .parameters:focus {
+    border-color: #5C6BC0;
+}
+
+.elephant-check-form .validate-form {
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: 1px solid #43A047;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #43A047;
+}
+
+.elephant-check-form .validate-form:hover {
+    background-color: #388E3C;
+}
+
+.elephant-check-form .error, .elephant-check-form .error:focus, .elephant-check-form:hover {
+    border-color: #FF5722;
+}
+
+.next, .report {
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: 1px solid #1976D2;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #2196F3;
+    text-decoration: none;
+}
+
+.next:hover, .report:hover {
+    background-color: #1976D2;
+}
+
+.validate-response {
+    text-align: center;
+}
+
+.elephants-statistics > * {
+    padding: 6px 0;
+}
+
+.all-bad-elephants {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.all-bad-elephants td, .all-bad-elephants th {
+    border: 1px solid #323232;
+}
